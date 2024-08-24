@@ -2,12 +2,6 @@ assert_lefthook_installed: true
 pre-commit:
   parallel: true
   commands:
-    generate-readme:
-      run: |
-        set -eu
-        ./README.ts > README.md
-        remark --ignore-path .gitignore --quiet --frail --no-stdout README.md # run remark again because README.md has changed
-        git add README.md # add README.md manually instead of using `stage_fixed` because it may not have been staged
     format:
       run: cargo fmt --all
       stage_fixed: true
@@ -19,8 +13,6 @@ pre-commit:
       run: remark --ignore-path .gitignore --quiet --frail --no-stdout .
     test-docs:
       run: cargo test --doc
-    lint-deps:
-      run: cargo machete --with-metadata
 commit-msg:
   commands:
     "lint commit message":

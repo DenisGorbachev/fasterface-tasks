@@ -2,8 +2,11 @@ use std::io::Write;
 
 use clap::Parser;
 
-use crate::command::Command;
-use crate::outcome::Outcome;
+use crate::Outcome;
+
+mod command;
+
+pub use command::*;
 
 #[derive(Parser, Clone, Debug)]
 #[command(args_conflicts_with_subcommands = true)]

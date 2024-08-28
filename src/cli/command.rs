@@ -2,7 +2,7 @@ use std::io::Write;
 
 use clap::Parser;
 
-use crate::outcome::Outcome;
+use crate::Outcome;
 use print::PrintCommand;
 use Command::*;
 

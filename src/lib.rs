@@ -1,8 +1,9 @@
 mod cli;
-mod command;
-mod outcome;
+mod types;
 
 pub use cli::*;
-pub use command::print::*;
-pub use command::*;
-pub use outcome::*;
+pub use types::*;
+
+mod traits;
+
+pub use traits::*;

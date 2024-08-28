@@ -14,19 +14,25 @@ summary = ""
 announcement = ""
 
 [dependencies]
-derive-new = { git = "https://github.com/OmarTawfik-forks/derive-new", branch = "impl-into" } # "0.6.0"
-derive_more = { version = "1.0.0", features = ["full"] }
+clap = { version = "4.5.11", features = ["derive"] }
 #fmt-derive = "0.1.2"
 #derive_builder = "0.20.0"
 derive-getters = { version = "0.5.0", features = ["auto_copy_getters"] }
+derive-new = { git = "https://github.com/OmarTawfik-forks/derive-new", branch = "impl-into" } # "0.6.0"
+derive_more = { version = "1.0.0", features = ["full"] }
+#not-found-error = { version = "0.2.1" }
+helpful = { path = "../helpful" }
+indexmap = { version = "2.4.0" }
 #subtype = { path = "../subtype" }
 serde = { version = "1.0.204", features = ["derive"], optional = true }
-url = { version = "2.5.2", features = ["serde"] }
-url-macro = { version = "0.1.6" }
-clap = { version = "4.5.11", features = ["derive"] }
 #save-load = { path = "../save-load", features = ["serde_json", "clap"] }
 #itertools = { version = "0.13.0" }
 stub-macro = { version = "0.1.3" }
-#not-found-error = { version = "0.2.1" }
-helpful = { path = "../helpful" }
+subtype = { path = "../subtype" }
 tokio = { version = "1.39.2", features = ["macros", "fs", "net", "rt", "rt-multi-thread"] }
+url = { version = "2.5.2", features = ["serde"] }
+url-macro = { version = "0.1.6" }
+syn = { version = "2.0.76", features = ["full", "extra-traits"] }
+strum = { version = "0.26.3", features = ["derive"] }
+standard-traits = { path = "../standard-traits" }
+derive_builder = { version = "0.20.0" }

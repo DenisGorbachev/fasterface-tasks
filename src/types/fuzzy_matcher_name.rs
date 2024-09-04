@@ -9,6 +9,7 @@ pub enum FuzzyMatcherName {
     CommandT,
     Selecta,
     Fzy,
+    Peco,
 }
 
 impl FuzzyMatcherName {}

@@ -75,5 +75,26 @@ pub use fuzzy_matcher_name::*;
 mod fuzzy_matcher_data;
 
 pub use fuzzy_matcher_data::*;
+
 mod language;
+
 pub use language::*;
+
+mod app_v1;
+mod menu_item;
+
+pub use menu_item::*;
+
+mod view_category_v1;
+
+pub use view_category_v1::*;
+
+mod view_item_v1;
+
+pub use view_item_v1::*;
+
+mod related_project_data;
+
+pub use related_project_data::*;
+mod related_project_name;
+pub use related_project_name::*;

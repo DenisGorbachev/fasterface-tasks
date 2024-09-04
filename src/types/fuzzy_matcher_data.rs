@@ -47,6 +47,10 @@ impl From<FuzzyMatcherName> for FuzzyMatcherData {
                 url: url!("https://github.com/jhawthorn/fzy"),
                 language: C,
             },
+            Peco => Self {
+                url: url!("https://github.com/peco/peco"),
+                language: Go,
+            },
         }
     }
 }

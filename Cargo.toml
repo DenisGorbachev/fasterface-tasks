@@ -18,7 +18,7 @@ clap = { version = "4.5.11", features = ["derive"] }
 #fmt-derive = "0.1.2"
 #derive_builder = "0.20.0"
 derive-getters = { version = "0.5.0", features = ["auto_copy_getters"] }
-derive-new = { git = "https://github.com/OmarTawfik-forks/derive-new", branch = "impl-into" } # "0.6.0"
+derive-new = "0.7.0"
 derive_more = { version = "1.0.0", features = ["full"] }
 #not-found-error = { version = "0.2.1" }
 helpful = { git = "https://github.com/DenisGorbachev/helpful" }

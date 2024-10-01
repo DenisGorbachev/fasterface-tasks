@@ -1,34 +1,55 @@
 mod state;
+
 pub use state::*;
+
 mod user;
+
 pub use user::*;
+
 mod operating_system;
+
 pub use operating_system::*;
+
 mod app;
+
 pub use app::*;
+
 mod ide;
+
 pub use ide::*;
+
 mod rust_rover;
+
 pub use rust_rover::*;
-mod orientation;
-pub use orientation::*;
-mod layout;
-pub use layout::*;
+
 mod event;
+
 pub use event::*;
+
 mod rust_rover_action;
+
 pub use rust_rover_action::*;
+
 mod focused_items;
+
 pub use focused_items::*;
+
 mod panel_kind;
+
 pub use panel_kind::*;
+
 mod rust_rover_panel;
+
 pub use rust_rover_panel::*;
-mod panel;
-pub use panel::*;
-mod rust_rover_item;
-pub use rust_rover_item::*;
+
 mod support_text;
+
 pub use support_text::*;
+
 mod person;
+
 pub use person::*;
+
+mod fasterface;
+
+pub use fasterface::*;

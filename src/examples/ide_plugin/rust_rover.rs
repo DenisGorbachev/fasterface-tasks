@@ -33,10 +33,10 @@ impl RustRover {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::{Explorer, Fasterface, Outcome, RustRover, RustRoverPanel};
+    use crate::{Outcome, RustRover, RustRoverPanel, RustRoverPanelKind};
     use indexmap::IndexMap;
     use stub_macro::stub;
-    // use RustRoverAction::*;
+    use RustRoverPanelKind::*;
 
     #[test]
     #[ignore]

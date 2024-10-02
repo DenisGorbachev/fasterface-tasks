@@ -11,7 +11,3 @@ pub use traits::*;
 mod examples;
 
 pub use examples::*;
-
-mod functions;
-
-pub use functions::*;

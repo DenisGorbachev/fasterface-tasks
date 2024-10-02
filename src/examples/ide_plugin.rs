@@ -50,6 +50,6 @@ mod person;
 
 pub use person::*;
 
-mod fasterface;
+mod entry;
 
-pub use fasterface::*;
+pub use entry::*;

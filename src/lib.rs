@@ -7,7 +7,11 @@ pub use types::*;
 mod traits;
 
 pub use traits::*;
+
 mod examples;
+
 pub use examples::*;
-mod ui;
-pub use ui::*;
+
+mod functions;
+
+pub use functions::*;

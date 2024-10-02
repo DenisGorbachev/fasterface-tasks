@@ -35,9 +35,11 @@ strum = { version = "0.26.3", features = ["derive"] }
 stub-macro = { version = "0.1.3" }
 subtype = { git = "https://github.com/DenisGorbachev/subtype" }
 syn = { version = "2.0.76", features = ["full", "extra-traits"] }
+tempfile = "3.13.0"
 tokio = { version = "1.39.2", features = ["macros", "fs", "net", "rt", "rt-multi-thread"] }
 url = { version = "2.5.2", features = ["serde"] }
 url-macro = { version = "0.1.6" }
+walkdir = { version = "2.5.0" }
 
 [package.metadata.cargo-machete]
-ignored = ["stub_macro", "serde"]
+ignored = ["stub_macro", "serde", "fasterface"]

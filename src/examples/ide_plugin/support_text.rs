@@ -34,3 +34,12 @@ impl From<SupportText> for String {
         }
     }
 }
+
+/// Dummy implementation
+impl Default for SupportText {
+    fn default() -> Self {
+        Development {
+            token: "COLI".to_string(),
+        }
+    }
+}

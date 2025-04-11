@@ -101,6 +101,4 @@ mod related_project_name;
 
 pub use related_project_name::*;
 
-pub mod locator;
 pub mod rust_project_directory;
-pub mod temporary_file;

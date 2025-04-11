@@ -42,10 +42,6 @@ mod rust_rover_panel;
 
 pub use rust_rover_panel::*;
 
-mod support_text;
-
-pub use support_text::*;
-
 mod person;
 
 pub use person::*;

@@ -1,7 +1,7 @@
-use subtype::newtype_string;
-use subtype::{Empty, Not};
+use subtype::subtype_string;
+use subtype::{IsEmpty, Not};
 
 // TODO: Add crate name validation
-newtype_string! {
-    pub struct KrateName(String | Not<Empty>)
+subtype_string! {
+    pub struct KrateName(String | Not<IsEmpty>)
 }

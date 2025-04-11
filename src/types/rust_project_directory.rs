@@ -1,6 +1,6 @@
-use subtype::newtype_path_buf;
+use subtype::subtype_path_buf;
 
-newtype_path_buf!(
+subtype_path_buf!(
     pub struct RustProjectDirectory(PathBuf);
 );
 

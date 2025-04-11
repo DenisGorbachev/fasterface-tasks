@@ -1,6 +1,6 @@
-use subtype::newtype;
+use subtype::subtype;
 
-newtype!(
+subtype!(
     #[derive(Ord, PartialOrd, Eq, PartialEq, Hash, Clone, Copy, Debug)]
     pub struct ObjectId([u8; 20]);
 );

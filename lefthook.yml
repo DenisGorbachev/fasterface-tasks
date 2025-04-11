@@ -8,7 +8,7 @@ pre-commit:
     lint-code:
       run: cargo clippy --all-targets --all-features -- -D warnings
     test-code:
-      run: cargo nextest run --no-fail-fast
+      run: cargo test run --no-fail-fast
     lint-docs:
       run: remark --ignore-path .gitignore --quiet --frail --no-stdout .
     test-docs:

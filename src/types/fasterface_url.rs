@@ -1,7 +1,7 @@
-use subtype::newtype;
+use subtype::subtype;
 use url::Url;
 
-newtype!(
+subtype!(
     #[derive(Ord, PartialOrd, Eq, PartialEq, Hash, Clone, Debug)]
     pub struct FasterfaceUrl(Url);
 );
